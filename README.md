@@ -17,6 +17,14 @@ each role stands, who got you in, and what needs a follow-up.
 2. Add your current CV to your project (claude.ai) or folder (Claude Code).
 3. Say **"Set me up."**
 
+## What to upload
+
+Your current CV, plus older or differently-focused versions if they add
+detail. Better still: cover letters, reviews, interview notes. Label each
+file (for example "2024, product-focused, approved"). Claude merges
+duplicates into one record, asks you to settle conflicts, and treats CV
+claims as unverified until you confirm them.
+
 ## What to expect
 
 - **Setup is an interview, not a form.** Claude reads your documents,
