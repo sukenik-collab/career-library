@@ -70,7 +70,7 @@ Always ask about anywhere the user might be overstating their authority,
 and any number they haven't verified. Never ask again for something
 marked `[don't recall]`.
 
-Open questions only, never yes/no, never leading.
+Follow the question rules in `method-questions.md`.
 
 When the user has answered, write the confirmed answers as journal
 entries, show them so the user can correct any, and save them (Saving,

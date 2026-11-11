@@ -123,7 +123,7 @@ conflicts still open.
 One role at a time, most recent first. All the roles can be done in the
 same chat; finish and save one before starting the next. For each role, ask only what fills a blank or
 verifies an unverified claim. Group the questions; ten focused ones beat
-a full sweep. Open questions only, never yes/no, never leading.
+a full sweep. Follow the question rules in `method-questions.md`.
 `method-questions.md` has the question areas.
 
 Cover for every project:

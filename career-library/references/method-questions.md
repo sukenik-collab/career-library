@@ -18,8 +18,17 @@ Two things get asked regardless:
 - Anywhere the user might be overstating their authority.
 - Any number that hasn't been verified.
 
-Open questions only. Never yes/no, never leading. Never ask again for
-something the library marks `[don't recall]`.
+## Question rules
+
+- Use open questions when discovering facts: what happened, who decided,
+  what a number counts.
+- Use closed or multiple-choice questions when verifying a specific
+  distinction, such as which of two titles was official, whether two
+  counts measure the same thing, or a word that may be a dictation slip.
+- Never ask a leading question. When you offer options, keep them
+  neutral, don't put the stronger claim first, and always include
+  "neither" or "something else".
+- Never ask again for something marked `[don't recall]`.
 
 ## Evidence for an inferred requirement: ask these first
 
