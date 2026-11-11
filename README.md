@@ -11,6 +11,23 @@ library and the CVs get better with use.
 Optionally, it also tracks your applications on a private board: where
 each role stands, who got you in, and what needs a follow-up.
 
+## Quick start
+
+1. Install the skill (below).
+2. Add your current CV to your project (claude.ai) or folder (Claude Code).
+3. Say **"Set me up."**
+
+## What to expect
+
+- **Setup is an interview, not a form.** Claude reads your documents,
+  then goes through your roles one at a time, most recent first, asking
+  who decided what, what the numbers count, and what you have never done.
+  Plan on a long first session; you can stop after any role and resume
+  later.
+- **The first CV will be ordinary.** It is the test of the library: it
+  surfaces facts and corrections, and the end-of-session save captures
+  them. The CVs get better from there.
+
 ## What's in it
 
 | Workflow | Start it with |
@@ -43,14 +60,27 @@ in your project, not in the skill, so updating the skill never touches it.
 
 ## Install (Claude Code)
 
-Copy the `career-library` folder into `~/.claude/skills/`.
+1. Download and unzip `career-library.zip` from the **Releases** page (or
+   clone this repo), and copy the `career-library` folder into
+   `~/.claude/skills/`.
+2. Make a folder for your job search and put your current CV in it (the
+   source file, such as .docx, if you have it), plus anything else you've
+   written about your work.
+3. Start Claude Code in that folder and say **"Set me up."**
+
+Your library files are written to a `library/` folder inside that
+folder. Always start Claude Code from the same folder so it finds them.
+Application tracking uses file mode here (a `pipeline.md` file); the
+board needs claude.ai.
 
 ## Your data
 
 - Your library files live in your own project. Nobody else sees them
   unless you share the project.
 - If you turn on tracking, the board is a private page in your account.
-  It holds your contacts' names, so don't share its link.
+  It holds your contacts' names, so don't share its link. The board works
+  only on claude.ai. Opening it loads fonts from Google Fonts, so your
+  browser makes a request to Google.
 - Keep your own copy of the library files now and then. Project files have
   no version history.
 
@@ -64,6 +94,11 @@ career-library/              the skill (this folder is what gets zipped)
 ```
 
 Build the ZIP from the repo root: `zip -r career-library.zip career-library`
+
+## Disclaimer
+
+This is not career advice. You are responsible for checking and for
+everything you send.
 
 ## License
 

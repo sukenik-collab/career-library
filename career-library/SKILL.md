@@ -1,6 +1,6 @@
 ---
 name: career-library
-description: "Builds a verified career library, then writes tailored CVs and interview prep from it without inventing or inflating, and optionally tracks applications. Use for CV or resume tailoring, job postings, interview stories, intro lookups, and job-application status."
+description: "Builds a verified career library from the user's CVs and answers, then writes tailored CVs, interview stories, and intro messages from it without inventing or inflating anything. Optionally tracks applications. Use for CV or resume tailoring, job postings, interview prep, intro lookups, application status, or documenting career history."
 ---
 
 # Career library
@@ -74,6 +74,15 @@ formats. Read it before reading or writing any of them.
 
 ## Every session
 
+- **Check, silently:** work these out from the tools available, not by
+  asking the user. Mention one only when something is missing.
+  1. Is there a library, and in which format? (`profile.md` means this
+     method's library; see "When there is no library".)
+  2. Can you write project files? Decide from the tools you have, and
+     confirm on the first save by reading the file back. If you can't,
+     use "If you cannot write files yourself" in `method-closeout.md`.
+  3. Can you read and produce documents (open a .docx or PDF, render a
+     CV file)? If not, work in text and say so before the first draft.
 - **Start:** read `pending_changes.md`. If it holds entries, deal with
   them first, as `method-closeout.md` describes. If `pipeline.md` exists
   and uses board mode, apply any answered board flags first
