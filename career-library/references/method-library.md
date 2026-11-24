@@ -60,6 +60,14 @@ Use these inline, exactly as written:
   again. Describe by method and attach no figure.
 - `[illustration]`: the user gave this to explain something. It is not a
   fact and stays off the page.
+- `[interview only]`: confirmed, but stays off CVs. For stories and
+  detail that need telling, not a bullet.
+- `[proof only]`: eligibility evidence (degree courses, course hours,
+  certificates) kept for HR or tender thresholds. Goes on a CV only when
+  the posting asks for it.
+
+Every new fact and every correction carries the date it was confirmed,
+so a later reader can tell which version is current.
 
 A claim taken from a document the user named as approved (see
 `method-setup.md`, Step 1) is confirmed and carries no marker.
@@ -69,6 +77,7 @@ A claim taken from a document the user named as approved (see
 ```
 # Profile: [Name]
 Last updated: [date]
+Last consolidated: [date of the last audit; see "Every session" in SKILL.md]
 
 ## Identity
 Name as rendered on CVs:
@@ -81,6 +90,11 @@ Languages:
 
 ## Education and credentials
 (degrees, certifications, patents with exact numbers, publications)
+
+## Eligibility proofs
+(`[proof only]`: transcript courses with hours and grades, course
+certificates with hours, totals worked out for a threshold and how they
+were counted. Kept apart from CV content.)
 
 ## Service and volunteering
 
@@ -174,7 +188,7 @@ have goes in `guards.md`.
 - [things never owned or done; domains and tools never touched]
 
 ## Standing corrections
-- [wrong version] → [right version]
+- [wrong version] → [right version] ([date])
 
 ## How to describe
 - [claims that are true only in a specific form]
