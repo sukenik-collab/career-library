@@ -40,6 +40,10 @@ These apply in every workflow.
    problems; don't overwrite.
 10. Nothing enters the library as fact until the user has confirmed it.
     Anything unconfirmed is marked as unconfirmed.
+11. Don't save career facts to the platform's memory feature; save them
+    to the library. A career fact found in memory, an earlier chat, or a
+    CV file is unconfirmed until it is in the library, unless it comes
+    from a document the user named as approved.
 
 ## Working rules
 
@@ -89,6 +93,17 @@ formats. Read it before reading or writing any of them.
   (`method-pipeline.md`, "Start of a session").
 - **End:** run closeout. A session that skips it teaches the library
   nothing.
+
+## Facts found outside the library
+
+When a career fact turns up in the platform's memory, an earlier chat,
+or a CV file and isn't in the library, say so and offer to confirm it and
+add it through closeout. Don't use it until then.
+
+When the user asks for an audit, sweep every such source dated after
+`Last consolidated:` in `profile.md` (or all of them, if the line is
+missing or says "never"), confirm and merge what you find, then set the
+date to today.
 
 ## Where things live
 

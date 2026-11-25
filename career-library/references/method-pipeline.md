@@ -34,6 +34,10 @@ Setup picks the mode. Both use the same fields.
    Mon–Fri or Sun–Thu). The default quiet threshold is 10 working days
    with no reply; offer to change it.
 3. **Board mode only:**
+   - Before publishing, look for an existing artifact titled
+     "Job Pipeline" (list the user's artifacts, if a tool can). If one
+     exists, offer to reuse it instead of publishing a new one. Never
+     create a second board, including for a test.
    - Read `assets/pipeline-board.html` from this skill. Publish it as a
      new private artifact titled "Job Pipeline", declaring the `db`
      capability with the rule `{path: "", read: "interact", write:

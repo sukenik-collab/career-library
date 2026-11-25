@@ -27,6 +27,11 @@ Go back through the session and list:
 - **Wording**, from the gap between your last draft and the user's final
   text (Step 2).
 - **Style rules** the user's edits show.
+- **Wording that a new rule breaks.** If this session added or changed a
+  guard or a style rule, check every approved wording in the role files
+  against it and list each line that now breaks it as a change. Earlier
+  CVs and approved documents are not swept here; they are checked when
+  reused (`method-cv.md`, Step 5).
 
 Do not collect: your own inferences or advice, anything taken from the
 posting, examples the user gave as illustrations, or anything the user

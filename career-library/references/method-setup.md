@@ -82,7 +82,9 @@ Check before showing it:
 
 Collect the fixed facts in the same pass: name as rendered, contact
 details, languages, education, certifications, patents, service or
-volunteering. Then ask what roles they are aiming at and what their
+volunteering. Eligibility evidence (transcript courses and hours, course
+certificates) goes under "Eligibility proofs", marked `[proof only]`;
+leave the section empty if the user has none to hand. Then ask what roles they are aiming at and what their
 limits are on location, on-site days, and travel.
 
 **Gate:** show the timeline and the fixed facts, and wait. The user
@@ -224,6 +226,8 @@ own word processor.
 
 ## Step 8: Wrap up
 
+Set `Last consolidated:` in `profile.md` to today, through Saving.
+
 Tell the user:
 
 - Which files now exist, and how many open questions remain, most
@@ -253,6 +257,10 @@ and what needs a follow-up. If yes, follow "Setup" in
 asks for it.
 
 ## Resuming
+
+A library set up before `Last consolidated:` and "Eligibility proofs"
+existed is complete, not unfinished. Add the line as "never" and the
+empty section the next time `profile.md` is saved; don't rerun setup.
 
 The files that exist show where setup stopped:
 

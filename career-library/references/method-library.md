@@ -37,6 +37,10 @@ rather than closeout. Nothing in it goes on a CV.
 ## Reading rules
 
 - The library outranks any CV version, old or new.
+- Read library files whole. A search result or snippet that doesn't show
+  a fact is not evidence the fact is missing: open the file before saying
+  something isn't there, and never fill the gap from your own recall or
+  the platform's memory.
 - Entries in `pending_changes.md` are approved and count as part of the
   library. Read them at the start of every session.
 - Nothing in `open_questions.md` goes on a CV, into interview notes, or
@@ -60,6 +64,11 @@ Use these inline, exactly as written:
   again. Describe by method and attach no figure.
 - `[illustration]`: the user gave this to explain something. It is not a
   fact and stays off the page.
+- `[interview only]`: confirmed, but stays off CVs. For stories and
+  detail that need telling, not a bullet.
+- `[proof only]`: eligibility evidence (degree courses, course hours,
+  certificates) kept for HR or tender thresholds. Goes on a CV only when
+  the posting asks for it.
 
 A claim taken from a document the user named as approved (see
 `method-setup.md`, Step 1) is confirmed and carries no marker.
@@ -69,6 +78,7 @@ A claim taken from a document the user named as approved (see
 ```
 # Profile: [Name]
 Last updated: [date]
+Last consolidated: [date setup finished or the last audit ran; "never" if unknown]
 
 ## Identity
 Name as rendered on CVs:
@@ -81,6 +91,11 @@ Languages:
 
 ## Education and credentials
 (degrees, certifications, patents with exact numbers, publications)
+
+## Eligibility proofs
+(`[proof only]`: transcript courses with hours and grades, course
+certificates with hours, totals worked out for a threshold and how they
+were counted. Kept apart from CV content.)
 
 ## Service and volunteering
 
@@ -174,7 +189,7 @@ have goes in `guards.md`.
 - [things never owned or done; domains and tools never touched]
 
 ## Standing corrections
-- [wrong version] → [right version]
+- [wrong version] → [right version] ([date])
 
 ## How to describe
 - [claims that are true only in a specific form]

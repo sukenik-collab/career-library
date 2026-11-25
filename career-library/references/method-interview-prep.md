@@ -12,7 +12,8 @@ can glance at beside a video call.
 - If the CV for this role was built in this session, reuse that
   question-and-answer and the final CV. Don't interrogate from scratch.
 - Otherwise read the library as in Step 0 of `method-cv.md`. The role
-  files hold the story material.
+  files hold the story material, including facts marked
+  `[interview only]`, which are meant for exactly this.
 
 ## Rules
 

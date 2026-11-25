@@ -58,7 +58,9 @@ cover a hard gap, and the user may prefer to spend the time elsewhere.
 For each list B item, find the evidence in the role files, or mark it a
 gap. Check each candidate against the guards in its role file, against
 `guards.md`, and against `open_questions.md`. Anything open stays off
-the page until the user settles it.
+the page until the user settles it. Facts marked `[interview only]` stay
+off the CV. Facts marked `[proof only]` go on it only when the posting or
+the agency asks for that evidence.
 
 ## Step 3: Ask
 
@@ -115,6 +117,10 @@ here costs one line. Fixed after drafting, it costs a rewrite.
 - Check approved wording for the projects you use, as a reference for
   phrasing that is known to be safe. Check rejected wording, and don't
   repeat it.
+- Before building from an earlier CV or an approved document, or
+  resending one unchanged, check every line against the current guards,
+  style rules, and library, and flag each line that breaks them. Rules
+  added since it was written apply to it too.
 - Write the summary paragraph fresh for this posting, from "In their own
   words" in `profile.md`.
 - When a page limit would force strained phrasing or wrong emphasis, the
