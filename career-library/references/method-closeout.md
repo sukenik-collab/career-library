@@ -29,10 +29,9 @@ Go back through the session and list:
 - **Style rules** the user's edits show.
 - **Wording that a new rule breaks.** If this session added or changed a
   guard or a style rule, check every approved wording in the role files
-  against it and list each line that now breaks it as a change. If the
-  project also holds approved documents (setup Step 1) or earlier CVs,
-  tell the user which of their lines break the new rule; don't edit those
-  files.
+  against it and list each line that now breaks it as a change. Earlier
+  CVs and approved documents are not swept here; they are checked when
+  reused (`method-cv.md`, Step 5).
 
 Do not collect: your own inferences or advice, anything taken from the
 posting, examples the user gave as illustrations, or anything the user
