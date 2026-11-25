@@ -40,13 +40,10 @@ These apply in every workflow.
    problems; don't overwrite.
 10. Nothing enters the library as fact until the user has confirmed it.
     Anything unconfirmed is marked as unconfirmed.
-11. Memory is not the library. Keep no career facts in memory; keep
-    them in the library and let memory point there. A career fact found
-    in memory, an old chat, or a CV file is unconfirmed until it is in
-    the library.
-12. Read library files whole. A search result or snippet that doesn't
-    show a fact is not evidence the fact is missing. Open the file before
-    saying something isn't there, and never fill the gap from memory.
+11. Don't save career facts to the platform's memory feature; save them
+    to the library. A career fact found in memory, an earlier chat, or a
+    CV file is unconfirmed until it is in the library, unless it comes
+    from a document the user named as approved.
 
 ## Working rules
 
@@ -96,11 +93,17 @@ formats. Read it before reading or writing any of them.
   (`method-pipeline.md`, "Start of a session").
 - **End:** run closeout. A session that skips it teaches the library
   nothing.
-- **Audit, now and then:** `profile.md` carries a `Last consolidated:`
-  date. When the user asks, or when facts have piled up outside the
-  library since that date (memory, chats, CV files), list each one found
-  outside the library and dated after it, get it confirmed, merge it
-  through closeout, then update the date.
+
+## Facts found outside the library
+
+When a career fact turns up in the platform's memory, an earlier chat,
+or a CV file and isn't in the library, say so and offer to confirm it and
+add it through closeout. Don't use it until then.
+
+When the user asks for an audit, sweep every such source dated after
+`Last consolidated:` in `profile.md` (or all of them, if the line is
+missing or says "never"), confirm and merge what you find, then set the
+date to today.
 
 ## Where things live
 

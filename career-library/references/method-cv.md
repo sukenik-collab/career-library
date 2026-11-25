@@ -58,7 +58,9 @@ cover a hard gap, and the user may prefer to spend the time elsewhere.
 For each list B item, find the evidence in the role files, or mark it a
 gap. Check each candidate against the guards in its role file, against
 `guards.md`, and against `open_questions.md`. Anything open stays off
-the page until the user settles it.
+the page until the user settles it. Facts marked `[interview only]` stay
+off the CV. Facts marked `[proof only]` go on it only when the posting or
+the agency asks for that evidence.
 
 ## Step 3: Ask
 

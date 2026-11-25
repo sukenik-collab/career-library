@@ -37,6 +37,10 @@ rather than closeout. Nothing in it goes on a CV.
 ## Reading rules
 
 - The library outranks any CV version, old or new.
+- Read library files whole. A search result or snippet that doesn't show
+  a fact is not evidence the fact is missing: open the file before saying
+  something isn't there, and never fill the gap from your own recall or
+  the platform's memory.
 - Entries in `pending_changes.md` are approved and count as part of the
   library. Read them at the start of every session.
 - Nothing in `open_questions.md` goes on a CV, into interview notes, or
@@ -66,9 +70,6 @@ Use these inline, exactly as written:
   certificates) kept for HR or tender thresholds. Goes on a CV only when
   the posting asks for it.
 
-Every new fact and every correction carries the date it was confirmed,
-so a later reader can tell which version is current.
-
 A claim taken from a document the user named as approved (see
 `method-setup.md`, Step 1) is confirmed and carries no marker.
 
@@ -77,7 +78,7 @@ A claim taken from a document the user named as approved (see
 ```
 # Profile: [Name]
 Last updated: [date]
-Last consolidated: [date of the last audit; see "Every session" in SKILL.md]
+Last consolidated: [date setup finished or the last audit ran; "never" if unknown]
 
 ## Identity
 Name as rendered on CVs:
